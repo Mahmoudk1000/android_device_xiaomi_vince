@@ -23,6 +23,7 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # Inherit some common Corvus-OS stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, device/corvus/CorvusParts/corvusparts.mk)
 
 # official tag
 DU_BUILD_TYPE := OFFICIAL
