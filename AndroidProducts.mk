@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The havocOS Project
+# Copyright (C) 2020 The Corvus-OS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_vince.mk
+    $(LOCAL_DIR)/du_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_vince-user \
-    havoc_vince-userdebug \
-    havoc_vince-eng
+    du_vince-user \
+    du_vince-userdebug \
+    du_vince-eng
