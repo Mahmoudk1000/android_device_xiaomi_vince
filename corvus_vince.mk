@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020-2021 Project MSM-Xtended OS
+# Copyright (C) 2020-2021 Project Corvus OS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,19 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from vince device
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
-# Inherit some common MSM-Xtended OS stuff.
-$(call inherit-product, vendor/xtended/config/common.mk)
+# Inherit some common Corvus OS stuff.
+$(call inherit-product, vendor/corvus/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1440
 
-XTENDED_BUILD_TYPE := OFFICIAL
-
-# Maintainer
-XTENDED_MAINTAINER := mahmoudk1000
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := xtended_vince
+PRODUCT_NAME := corvus_vince
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi
@@ -46,4 +41,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="vince-user 8.1.0 OPM1.171019.019 V11.0.2.0.OEGMIXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.201005.004/6782484:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys"
