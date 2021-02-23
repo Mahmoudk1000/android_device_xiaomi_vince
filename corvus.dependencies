@@ -1,8 +1,8 @@
 [
   {
-    "repository": "stormbreaker-project/kernel_xiaomi_vince",
+    "repository": "Blacksuan19/kernel_dark_ages_vince",
     "target_path": "kernel/xiaomi/vince",
-    "branch": "r11.0",
+    "branch": "darky",
     "remote": "github"
  },
   {
@@ -12,21 +12,21 @@
     "remote": "github"
  },
 {
-    "repository": "Project-LegionOS/hardware_qcom-caf_display",
+    "repository": "LineageOS/android_hardware_qcom_display",
     "target_path": "hardware/qcom-caf/msm8996/display",
-    "branch": "11-msm8996",
+    "branch": "lineage-18.1-caf-msm8996",
     "remote": "github"
 },
   {
-    "repository": "Project-LegionOS/hardware_qcom-caf_media",
+    "repository": "LineageOS/android_hardware_qcom_media",
     "target_path": "hardware/qcom-caf/msm8996/media",
-    "branch": "11-msm8996",
+    "branch": "lineage-18.1-caf-msm8996",
     "remote": "github"
  },
   {
-    "repository": "Project-LegionOS/hardware_qcom-caf_audio",
+    "repository": "LineageOS/android_hardware_qcom_audio",
     "target_path": "hardware/qcom-caf/msm8996/audio",
-    "branch": "11-msm8996",
+    "branch": "lineage-18.1-caf-msm8996",
     "remote": "github"
  }
 ]
